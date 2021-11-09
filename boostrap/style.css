@@ -1,0 +1,70 @@
+
+body{
+    background-color: #fdcae1
+}
+header{
+    color: white;
+    padding: 50px;
+    text-align: center;
+    background-image: url(../img/fotografia-de-alimentos-ideas-creativas.jpg);
+}
+div.ul.li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+    text-align: right;
+    border: 3px lightseagreen solid;
+    border-radius: 10%;
+}
+.menu{
+    text-align: center;
+}
+.nosotros{
+    font-family:
+}
+ul{
+    text-align: right;
+    padding: 2px;
+    margin-left: 1px;
+}
+.galeria{
+    text-align: center;
+    padding: 1px;
+}
+.listapie{
+    text-align: center;
+    padding: 5px;
+}
+.listapie.li{
+    padding: 50px;
+    padding: 25px;
+}
+div{
+    background-image: url(../img/menú-del-restaurante-en-el-viejo-fondo-de-papel-111773277.jpg);
+    padding: 60px;
+    margin-left: 1px;
+}
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:6px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 30px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

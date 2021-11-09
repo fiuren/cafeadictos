@@ -1,0 +1,53 @@
+body{ /*creamos el fondo de la pagina web, tipo de letra, color e imagen*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4df3e;
+    background-image: url(../img/69825854_618235452250394_2347867782441336832_n.jpg); background-size: cover;
+}
+h1{ /*Establecemos los márgenes y alineamos el texto en el centro de la pantalla*/
+    margin-top: 40px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+}
+.margenes{ /*Damos valores al div contenedor mas grande*/
+    margin-right: 37%;
+    margin-left: 33%;
+    text-align: center;
+}
+.a{/*Modificamos cada div (a,b,c) que contiene el contenedor div anterior*/
+    text-align: center;
+    margin-right: 66px;
+    margin-left: 66px;
+}
+.b{
+    font-size: 35px;
+    margin-right: 40px;
+    margin-left: 50px;
+}
+.c{
+    margin-right: 130px;
+    margin-left: 130px;
+}
+h2{ /*modificamos el título h2*/
+    background-color: white;
+    padding: 0px;
+    color: green;
+}
+h3{
+    margin-left: 300px;
+    padding: 0px;
+    color: green;
+}
+.d{ /* damos valores y paramétros al ultimo div (d) que contiene el h3 y la foto*/
+    text-align: center;
+    background-color: white;
+    display: flex;
+    margin-left: 180px;
+    margin-right: 145px;
+}
+p{ /*parrafo alineado al final de la pagina web*/
+    text-align: center;
+    color: green;}
+.foto{ /*Insertamos el logo al final de la página*/
+    margin-left: 30%;
+}
