@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+    <div class="formulario">
+        <div class="b">
+            <h1>Descubre nuestra verdadera luz</h1>
+            <p id="contador"></p>
+            <div>
+                <form action="datos">
+                    <label>
+                        Nombre:
+                        <!--introducimos las variables que vamos a necesitar para el campo-->
+                        <input type="text" name="nombre" id="nombre" placeholder="Escribe aquí tu nombre" autofocus>
+                        <!--el placeholder nos pone un texto en el campo que se va a rellenar-->
+                    </label>
+                    <label>
+                        E-mail:
+                        <input type="text" name="email" id="email" placeholder="Escribe aquí tu email" required>
+                    </label>
+                    <label>
+                        Contraseña:
+                        <input type="password" name="password" id="password" placeholder="Introduce una contraseña"
+                            required>
+                    </label>
+            </div>
+
+            </form>
+            <a href="segundo.html" class="myButton">Regístrate</a>
+            <h2>WELCOME TO VIGO</h2>
+            
+            <script>
+                // establezco un día desde el que empezar la cuenta a cero
+                var countDownDate = new Date("Nov 20, 2021 20:00:00").getTime();
+                
+                // contador que va restando 1 segundo
+                var x = setInterval(function() {
+                
+                  // Fecha y hora del dia de hoy
+                  var now = new Date().getTime();
+                    
+                  // tiempo que falta entre el ultimo dia hasta hoy
+                  var distance = countDownDate - now;
+                    
+                  // Tiemp calculado en Dias,Horas,Minutos y Segundos
+                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    
+                  // saco por pantalla el restultado del contador
+                  document.getElementById("contador").innerHTML = days + "d " + hours + "h "
+                  + minutes + "m " + seconds + "s ";
+                    
+                  // Texto que sale cuando se termine el contador 
+                  if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("contador").innerHTML = "FELIZ NAVIDAD";
+                  }
+                }, 1000);
+                </script>
+
+        
+
+        </div>
+    </div>
+</body>
+
+</html>
