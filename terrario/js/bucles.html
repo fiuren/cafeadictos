@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="selectForm">
+        <p>
+          <label for="musicTypes">Escoge un tipo de musica</label>
+          <select id="musicTypes" name="musicTypes" multiple="multiple">
+            <option selected="selected">R&B</option>
+            <option>Jazz</option>
+            <option>Blues</option>
+            <option>Clasica</option>
+            <option>Opera</option>
+          </select>
+        </p>
+        <p><input id="btn" type="button" value="Cuantas has seleccionado" /></p>
+      </form>
+
+      <script>
+        function cuantos(selectObject) {
+          let numberSelected = 0;
+          for (let i = 0; i < selectObject.options.length; i++) {
+            if (selectObject.options[i].selected) {
+              numberSelected++;
+            }
+          }
+          return numberSelected;
+        }
+        
+        let btn = document.getElementById('btn');
+        btn.addEventListener('click', function() {
+          alert('Numero de opciones seleccionadas ' + cuantos(document.selectForm.musicTypes));
+        });
+        </script>
+</body>
+</html>
