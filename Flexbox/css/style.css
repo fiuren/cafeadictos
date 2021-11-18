@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Shippori Antique B1', sans-serif;
+    background-color: lightslategray;
+}
+h1 {
+	font-size: 50px;
+	font-weight: 300;
+	flex: 1;
+}
+h5 {
+	font-weight: 500;
+	line-height: 1.7em;
+}
+
+h6 {
+	color: #666;
+	font-size: 14px;
+}
+label{
+    text-transform: uppercase;
+}
+
+.product-filter {
+    display: flex; /*de forma predeterminada alinea los elementos de forma horizontal*/
+    padding: 15px;
+  }
+  .product-filter h1 {
+    flex-grow: 1;
+  }
+  .sort {
+      
+    display: flex;
+    align-self: flex-end;
+  }
+  .collection-sort {
+    display: flex;
+    flex-direction: column; /*los elementos se alinean verticalmente*/
+  }
+  .products { /*Ahora alineamos los elementos horizontalmente*/
+    
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product-card {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+    flex-direction: column;
+    background-color: lightgray;
+  
+    display: flex; /* los elemntos-hijo tambien tienen flex de esta forma */
+  }
+  .product-image img {
+    max-width: 100%;
+  }
+  .product-info {
+    margin-top: auto;
+  }
+  /*Adaptamos la ventana de visualizacion para dispositivos con reslociones de hasta 920px*/
+  @media (max-width: 920px) {
+    .product-card {
+      flex: 1 21%;
+    }
+  }
+    /*Adaptamos la ventana de visualizacion para dispositivos con reslociones de hasta 600px*/
+
+  @media (max-width: 600px) {
+    .product-card {
+      flex: 1 46%;
+    }
+  }
+  /**/
+  @media (max-width: 480px) {
+    .product-filter {
+      flex-direction: column;
+    }
+  }
+/* Seleccionamos los dos primeros productos para que destaquen sobre los demás*/
+.products .product-card:first-child, 
+.products .product-card:nth-child(2) {
+  flex: 2 46%;
+}
