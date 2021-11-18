@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+body{
+	background-image: url(../team/img/pexels-julia-zolotova-6516464.jpg);
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+}
+h1{
+	font-size: 150px;
+	border-top: 4px solid white;
+	border-bottom: 10px solid rgb(55, 235, 70);
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+	line-height: 120px;
+}
+
+.limonero{
+	display: flex;
+	max-width: 1400px;
+	margin-left: 250px;
+	margin-top: 70px;
+}
+.divlimon{
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.171);
+	margin-left: 40px;
+	padding: 20px;
+	
+}
+
+img{
+	border-radius: 200px;
+	margin-bottom: 30px;
+}
+p{
+	margin-bottom: 30px;
+}
+
+.iconos{
+	margin-top: 30px;
+	color: rgba(34, 82, 240, 0.822);
+	font-size: 40px;
+	animation: anim 3s infinite;
+}
+
+@keyframes anim{
+	0% {transform: translateY(0);}
+	20% {transform: translateY(0);}
+	40% {transform: translateY(20px)}
+	50% {transform: translateY(0);}
+	60% {transform: translateY(15px)}
+	80% {transform: translateY(0);}
+	100% {transform: translateY(0);}
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #6ab66a;
+	background-color:#fefffe2f;
+	border-radius: 20px;
+	border:1px solid #050505;
+	display:inline-block;
+	cursor:pointer;
+	color:#030303;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #cdff05 5%, #ffff7a 100%);
+	background-color:#cdff05;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        

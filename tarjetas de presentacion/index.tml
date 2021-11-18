@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Limones</title>
+    <link rel="stylesheet" href="../team/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <h1 class="h1">
+      
+    </h1>
+    <div class="limonero">
+        <div class="divlimon">
+            <img src="../team/img/pexels-tara-winstead-6489631 (2).jpg" alt="">
+            <p>Los limones mas limones de todas las limonerias de la zona señora, acerquese a compar limones a limnoeria
+                Luis, los mejores limones limones limones. Limon limon limon limon limon</p>
+            <p>Consulte condiciones en el sindicato del Limon (Puede que los limones no lleven auntentico limon dentro)
+            </p>
+            <a href="#" class="myButton">Pulsa, amigo mío</a>
+            <div class="iconos">
+                <i class="far fa-hand-pointer"></i>
+                <i class="far fa-hand-pointer"></i>
+                <i class="far fa-hand-pointer"></i>
+                <i class="far fa-hand-pointer"></i>
+            </div>
+        </div>
+        <div class="divlimon">
+            <img src="../team/img/pexels-tara-winstead-6489572.jpg" alt="">
+            <p>Los limones mas limones de todas las limonerias de la zona señora, acerquese a compar limones a limnoeria
+                Luis, los mejores limones limones limones.Señooooooooooooooooor limonero</p>
+            <p>Consulte condiciones en el sindicato del Limon (Puede que los limones no lleven auntentico limon dentro)
+            </p>
+            <a href="#" class="myButton">Pulsa, amigo mío</a>
+            <div class="iconos">
+                <i class="far fa-hand-pointer"></i>
+                <i class="far fa-hand-pointer"></i>
+                <i class="far fa-hand-pointer"></i>
+                <i class="far fa-hand-pointer"></i>
+            </div>
+        </div>
+        <div class="divlimon">
+            <img src="../team/img/pexels-tara-winstead-6489626.jpg" alt="">
+            <p>Los limones mas limones de todas las limonerias de la zona señora, acerquese a compar limones a limnoeria
+                Luis, los mejores limones limones limones. Ahora con el doble de limon, aaaaaaaahhhhhhhhhhhhhhh</p>
+            <p>Consulte condiciones en el sindicato del Limon (Puede que los limones no lleven auntentico limon dentro)
+            </p>
+            <a href="#" class="myButton">Pulsa, amigo mío</a>
+            <div class="iconos">
+                <i class="far fa-hand-pointer"></i>
+                <i class="far fa-hand-pointer"></i>
+                <i class="far fa-hand-pointer"></i>
+                <i class="far fa-hand-pointer"></i>
+            </div>
+        </div>
+    </div>
+
+<script src="../team/script.js"></script>
+</body>
+
+</html>
