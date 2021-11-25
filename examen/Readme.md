@@ -37,3 +37,5 @@ Una vez que hayamos terminado con las caracteristicas técnicas y estéticas hac
   *customElements.define('header-component', Header);*
 
 <img src="https://user-images.githubusercontent.com/89069423/143441269-0b70a2fe-749a-4e9e-8881-f8502ad26565.png"/>
+<img src="https://user-images.githubusercontent.com/89069423/143441351-a6cb50e4-1bf4-4ae6-a154-d251c47f4e03.png"/>
+
