@@ -8,3 +8,4 @@ Al final dispondremos de una seccion para poner un email, el cual nos dará un e
 
 En el resto de campos en caso de no rellenar un campo o cumplimentarse mal, nos dará un aviso en ese dicho campo.
 
+<img src:"https://user-images.githubusercontent.com/89069423/143451160-ba0338d3-70e0-48ae-b18b-031820576b19.png"/>
