@@ -35,3 +35,5 @@ Una vez que hayamos terminado con las caracteristicas técnicas y estéticas hac
 
   y por último definimos por completo el archivo .js y le damos un nombre, en este caso corresponde a "header-componentes".
   *customElements.define('header-component', Header);*
+
+<img src="https://user-images.githubusercontent.com/89069423/143441269-0b70a2fe-749a-4e9e-8881-f8502ad26565.png"/>
