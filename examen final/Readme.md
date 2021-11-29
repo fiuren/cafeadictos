@@ -5,4 +5,7 @@ Se tienen dos páginas activas, una para el index y otra para el formulario que 
 
 Si se quisiera añadir mas páginas tan solo tendríamos que crear dichos html y añadirlos a los correspondientes archivos .js .
 
+<img src="https://user-images.githubusercontent.com/89069423/143847795-c6c30b93-7490-4628-a6a6-b4dfd0907ab4.png"/>
+<img src="(https://user-images.githubusercontent.com/89069423/143847818-9d6b00e2-f0f0-4c20-bb9e-050185bb5b95.png"/>
+
 
