@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reutilizar encabezado y pie de página</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/style2.css">
+    <script src="componentes/header.js" type="text/javascript" defer></script>
+    <script src="componentes/footer.js" type="text/javascript" defer></script>
+
+</head>
+<body>
+    <header-component></header-component>
+    <main>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Informacion Personal</legend>
+                    <div class="double-input">
+                        <div class="form-input-container">
+                            <label for="fname">Nombre</label>
+                            <input type="text" id="fname" placeholder="" minlength="{5,20}" required>
+                        </div>
+                        <div class="form-input-container">
+                            <label for="lname">usuario</label>
+                            <input type="text" id="lname" placeholder="" required>
+                        </div>
+                    </div>
+                    <div class="double-input">
+                        <div class="form-input-container">
+                            <label for="email">Domicilio</label>
+                            <input type="text" id="text" pattern="(?=.*[a,z,A-Z])(0-9){10}+ @[bigcorp.eu]" required>
+                        </div>
+                        <div class="form-input-container">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" placeholder="" pattern=".{8,}" maxlength="10" required>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Cuestionario de Salud</legend>
+                    <div class="double-input">
+                        <div class="form-input-container">
+                            <label for="fname">Sufres alguna alergia</label>
+                            <input type="radio" name="si">
+                            <label for="si">Si</label>
+                            <input type="radio" name="no">
+                            <label for="si">No</label>
+                            <textarea name="comentario" id="comentario" cols="23" rows="3" maxlength="50"></textarea>
+                        </div>
+                        <div class="form-input-container">
+                            <label for="lname">Tienes algun problema físico</label>
+                            <input type="radio" name="si">
+                            <label for="si">Si</label>
+                            <input type="radio" name="no">
+                            <label for="si">No</label>
+                            <textarea name="comentario" id="comentario" cols="23" rows="3" maxlength="50"></textarea>
+                        </div>
+                    </div>
+                    <div class="double-input">
+                        <div class="form-input-container">
+                            <label for="email">Has tenido algun problema grave de salud</label>
+                            <select id="problema">
+                                <option value="Warsaw">Si</option>
+                                <option value="Cracow">NO</option>
+                                <option value="Warsaw">A VECES</option>
+                                <option value="Cracow">NUNCA</option>
+                            </select>
+                        </div>
+                        <div class="form-input-container">
+                            <label for="capacity"> Nº Horas disponibles </label>
+                            <input type="number" id="capacity" value="1" min="1" max="10" step="1">
+                        </div>
+                    </div>
+                </fieldset>
+                <p>
+                    <label for="mail"style="color:black" >
+                        <span>Por favor, introduzca una dirección de correo electrónico: </span>
+                        <input type="email" id="mail" name="mail" required minlength="8"  >
+                        <span class="error" aria-live="polite"></span>
+                    </label>
+                </p>
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
+
+    </main>
+    <footer-component></footer-component>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+  }
+  *:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h1 {
+    text-align: center;
+  }
+body {
+    background:lightslategray;
+  font-family: 'Lato';
+  padding: 10px 0;
+  margin: 0;
+  font-size: 14px;
+  overflow-x: hidden;
+  min-width: 345px;
+  }
+  p * {
+    display: block;
+  }
+  main{
+    background-image: url(../img/pexels-victor-freitas-841131.jpg);
+  }
+  input[type=email]{
+      color: white;
+    width: 100%;
+    border: 1px solid #333;
+    margin: 0;
+    font-family: inherit;
+    font-size: 90%;
+    box-sizing: border-box;
+  }
+  
+  /* Este es nuestro diseño para los campos no válidos */
+  input:invalid{
+    border-color: #900;
+    background-color: #FDD;
+  }
+  
+  input:focus:invalid {
+    outline: none;
+  }
+  
+  /* Este es el diseño para nuestros mensajes de error */
+  .error {
+    width : 100%;
+    padding: 0;
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+  
+    box-sizing: border-box;
+  }
+
+  .error.active {
+    padding: 0.3em;
+  }
+  form {
+	max-width: 700px;
+	display: block;
+	width: 90%;
+  background: rgb(37,119,126);
+background: radial-gradient(circle, rgba(37,119,126,1) 46%, rgba(136,187,228,0.9556197478991597) 100%);
+	padding: 20px 0;
+	margin: 20px auto;
+	color: black;
+	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+fieldset {
+	border: none;
+	width: 90%;
+	margin: 10px auto;
+}
+legend {
+	margin: 30px 0 0;
+	font-size: 24px;
+	font-weight: 700;
+}
+.double-input {
+	margin: 20px auto;
+}
+.double-input > div {
+	float: left;
+	width: 48%;
+	margin: 0 1% 10px;
+} 
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+.form-input-container{
+  padding: 3px;
+}
+button[type="submit"] {
+	height: 50px;
+	width: 300px;
+	background-color: #27ae60;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	font-size:20px;
+	line-height: 50px;
+	font-family: 'Lato';
+	box-shadow: 0 0 10px #131313;
+	display: block;
+	margin: 0 auto;
+}
+input, select {
+	width: 100%;
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #a9a9a9;
+	padding: 8px;
+	height: 35px;
+}
+.date-select > select {
+	width: 47%;
+}
+.date-select > select:first-of-type {
+	margin-right: 3%;
+}
+input:focus, 
+select:focus {
+	border: 1px solid #2db92d;
+}
+input:valid, 
+select:valid {
+	border: 1px solid #55ee70;
+}
+option {
+	color: #000;
+	background-color: #ececec;
+}
