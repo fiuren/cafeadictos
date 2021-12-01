@@ -1,0 +1,12 @@
+.lista{
+    display: flex;
+    padding: 20px;
+    margin-left: 260px;
+    background-color: rgba(197, 241, 37, 0.39);
+}
+
+.menu{
+    background-color: rgba(214, 233, 128, 0.37);
+    margin-top: -20px;
+   /* position: fixed; */
+}
