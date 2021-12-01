@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+}
+header{
+  font-family: 'Anton', sans-serif;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);border-color:yellow 3px solid;
+border: steelblue 5px solid;
+padding: 5%;
+letter-spacing: wpx;
+}
+.container{
+  font-family: 'Source Code Pro', monospace;
+
+  margin-top: 10%;
+  margin-left: 3%;
+
+}
+.highlight {
+    background-color: yellow;
+  }
+  
+  .error {
+    background-color: lightcoral;
+    border: red;
+  }
+  body{
+    text-align: center;
+    background-color:plum;
+  }
+·start{
+  position: relative;
+  margin-right: 0%;
+}
+button{
+  box-shadow: -4px 8px 12px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#0e1c1f;
+	font-family:Arial;
+	font-size:17px;
+	padding:9px 32px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #e1e2ed;
+}
+button:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
