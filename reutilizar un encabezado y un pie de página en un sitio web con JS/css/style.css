@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    background: rgb(22,139,150);
+background: linear-gradient(90deg, rgba(22,139,150,1) 46%, rgba(35,125,198,0.9556197478991597) 100%);
+    color: #333;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1 0 auto;
+  }
