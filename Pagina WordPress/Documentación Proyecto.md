@@ -45,5 +45,13 @@ En el encabezado se dispone la información relevante y en el pié de página se
 <img src="https://user-images.githubusercontent.com/89069423/146905084-c5d54222-14fd-4fbd-8d3e-4a5e5ec7d91a.png"/>
 <img src="https://user-images.githubusercontent.com/89069423/146905442-6cc6231c-3ff7-4fca-ac36-a2fbe73bf199.png"/>
 
+ A continuacion se muestran algunos de los elementos que podemos encontrar en los distintos apartados de la pagina web: como puede ser un articulo del blog, el bloque de formulario en la seccion de contactos y otra captura de la pestaña de servicios.
+<img src="https://user-images.githubusercontent.com/89069423/146910916-b7b74342-3af4-4069-a38f-eb03a007819b.png"/>
+<img src="https://user-images.githubusercontent.com/89069423/146910923-2e62014d-228d-4c03-b0a2-ceb99bfd31fc.png"/>
+<img src="https://user-images.githubusercontent.com/89069423/146910940-524f3f81-9523-4fcb-98ce-d01eba64a555.png"/>
+
+
+ 
+
 
 
