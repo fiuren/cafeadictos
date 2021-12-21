@@ -34,7 +34,16 @@ Y finalmente para optimizar la carga de imágenes de la página web asi como de 
 
 ## Estética
 En cuanto a la estética nos centraremos en usar un diseño simple pero que tenga el contraste suficiente para que todos los elementos de la página sean accesibles.
-En el encabezado se dispone la información relevante y en el pié de página se disponen de las redes sociales (llevan a la pagina principal de cada red social ya que no se tiene creada ninguna cuenta con el nombre de la página web)
+En el encabezado se dispone la información relevante y en el pié de página se disponen de las redes sociales (llevan a la pagina principal de cada red social ya que no se tiene creada ninguna cuenta con el nombre de la página web).
+
+<img src="https://user-images.githubusercontent.com/89069423/146904608-25e3dd77-3d5c-4ee0-a726-6d0a465afa74.png"/>
+<img src="https://user-images.githubusercontent.com/89069423/146904929-1e3afa34-aea8-4540-9d12-49fc0aff5e4f.png"/>
+<img src="https://user-images.githubusercontent.com/89069423/146905015-c7700779-32e3-4ee9-9bac-a72417c4495d.png"/>
+<img src="https://user-images.githubusercontent.com/89069423/146905032-e21aa4aa-4b8a-4fdf-8a19-2adf57dea7e2.png"/>
+<img src="https://user-images.githubusercontent.com/89069423/146905048-2f665359-cc7f-4cb1-a8e0-437489de3ac3.png"/>
+<img src="https://user-images.githubusercontent.com/89069423/146905070-fa73f0c4-393c-45c8-9438-a30ac6b83a26.png"/>
+<img src="https://user-images.githubusercontent.com/89069423/146905084-c5d54222-14fd-4fbd-8d3e-4a5e5ec7d91a.png"/>
+<img src="https://user-images.githubusercontent.com/89069423/146905442-6cc6231c-3ff7-4fca-ac36-a2fbe73bf199.png"/>
 
 
 
