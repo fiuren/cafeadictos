@@ -41,7 +41,7 @@ En el encabezado se dispone la información relevante y en el pié de página se
 <img src="https://user-images.githubusercontent.com/89069423/146905015-c7700779-32e3-4ee9-9bac-a72417c4495d.png"/>
 <img src="https://user-images.githubusercontent.com/89069423/146905032-e21aa4aa-4b8a-4fdf-8a19-2adf57dea7e2.png"/>
 <img src="https://user-images.githubusercontent.com/89069423/146905048-2f665359-cc7f-4cb1-a8e0-437489de3ac3.png"/>
-<img src="https://user-images.githubusercontent.com/89069423/146905070-fa73f0c4-393c-45c8-9438-a30ac6b83a26.png"/>
+<img src="https://user-images.githubusercontent.com/89069423/146908245-caf9da0d-8cc1-4899-8aef-2fafedf68e37.png"/>
 <img src="https://user-images.githubusercontent.com/89069423/146905084-c5d54222-14fd-4fbd-8d3e-4a5e5ec7d91a.png"/>
 <img src="https://user-images.githubusercontent.com/89069423/146905442-6cc6231c-3ff7-4fca-ac36-a2fbe73bf199.png"/>
 
